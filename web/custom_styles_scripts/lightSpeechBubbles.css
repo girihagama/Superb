@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 30, 2015, 2:32:56 PM
+    Author     : Indunil
+*/
+
+.you {
+    position: relative;
+    background: #88b7d5;
+    border: 5px solid #c2e1f5;
+    max-width: 95%;
+    padding:10px;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    float: left;  
+    clear: both;
+    text-align: left;
+    border-radius: 10px;
+    /**
+    * in case of failure change;
+    * max-width: max-content;
+    */
+    
+    white-space: pre-wrap; /* css-3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+.you:after, .you:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.you:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: #88b7d5;
+    border-width: 5px;
+    margin-top: -5px;
+}
+.you:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-right-color: #c2e1f5;
+    border-width: 12px;
+    margin-top: -12px;
+}
+
+.me {
+    position: relative;
+    background: #88b7d5;
+    border: 5px solid #c2e1f5;
+    max-width: 95%;
+    padding:10px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    float: right;
+    clear: both;
+    text-align: right;
+    border-radius: 10px;
+    /**
+    * in case of failure change;
+    * max-width: max-content;
+    */
+    
+    white-space: pre-wrap; /* css-3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+.me:after, .me:before {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.me:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #88b7d5;
+    border-width: 5px;
+    margin-top: -5px;
+}
+.me:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-left-color: #c2e1f5;
+    border-width: 12px;
+    margin-top: -12px;
+}
+

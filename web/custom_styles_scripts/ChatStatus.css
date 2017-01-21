@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 17, 2015, 11:43:43 PM
+    Author     : Indunil
+*/
+
+.user-online{
+    width:10px;
+    height:10px;
+    -webkit-box-shadow: 0 0 5px 0 gray;
+    box-shadow: 0 0 5px 0 gray;
+    border-radius:50px;
+    background-color:#00FF00;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+}
+
+.user-offline{
+    width:10px;
+    height:10px;
+    -webkit-box-shadow: 0 0 5px 0 grey;
+    box-shadow: 0 0 5px 0 gray;
+    border-radius:50px;
+    background-color:red;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+}
+
+.user-noChatState{
+    width:10px;
+    height:10px;
+    border: solid 1px black;
+    -webkit-box-shadow: 0 0 5px 0 #FFFFFF;
+    box-shadow: 0 0 5px 0 #FFFFFF;
+    border-radius:50px;
+    background-color: white;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+}

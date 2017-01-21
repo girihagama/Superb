@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 17, 2015, 11:28:47 AM
+    Author     : Indunil
+*/
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+
+.margintop20 {
+    margin-top:20px;
+}
+
+.nav-pills>li>a {
+    border-radius: 0px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.nav-stacked>li+li {
+    margin-top: 0px;
+    margin-left: 0;
+    border-bottom:1px solid #dadada;
+    border-left:1px solid #dadada;
+    border-right:1px solid #dadada;
+}
+
+.active2 {
+    border:2px solid black;
+    //-webkit-box-shadow:inset 0 0 10px 1px #17FFF0;
+    //box-shadow:inset 0 0 10px 1px #17FFF0;
+}
